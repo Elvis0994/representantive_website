@@ -1,9 +1,29 @@
 body {
-    max-width: 1300px;
+    width: 980px;
     margin:0 auto;
 }
-.mainphoto {
-    float: left;
+
+
+header {
+    font-size: 38px;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    background-color: #0088ff;
+    margin-top: 0px;
+}
+#headerpicture {
     width: 100%;
     height: auto;
+}
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.bikescontainer {
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+    background-color: #0088ff;
 }
