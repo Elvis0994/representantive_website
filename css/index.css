@@ -2,13 +2,19 @@ body {
     background-image: url(img/background.jpg);
     width: 900px;
     margin:0 auto;
+    text-align: center;
 }
 
 header {
     text-align: center;
+    background-color: #91c8f7;
 }
 
-#headerpicture {
+.picture {
     width: 900px;
     height: auto;
 }
+
+.bikescontainer {
+    background-color: #91c8f7;
+   }
