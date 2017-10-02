@@ -1,5 +1,14 @@
-body {
+html {
     background-image: url(img/background.jpg);
+    background-attachment: fixed;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
     width: 900px;
     margin:0 auto;
     text-align: center;
@@ -18,3 +27,12 @@ header {
 .bikescontainer {
     background-color: #91c8f7;
    }
+
+main {
+    float: left;
+}
+#sidebar {
+    float: left;
+    background-color: black;
+    width: auto;
+}
