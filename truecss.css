@@ -1,0 +1,38 @@
+html {
+    background-image: url(img/background.jpg);
+    background-attachment: fixed;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 80%;
+    margin:0 auto;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    background-color: #91c8f7;
+}
+
+.picture {
+    width: 100%;
+    height: auto;
+}
+
+.bikescontainer {
+    background-color: #91c8f7;
+    margin-bottom: 5px;
+   }
+
+nav ul {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100%;
+    margin: 0;
+
+}
