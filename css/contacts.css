@@ -28,8 +28,8 @@ body {
 }
 
 main img {
-    width: 1000px;
-     margin:0 auto;
+    max-width: 100%;
+    height: auto;
 }
 main {
     background-color: #91c8f7
@@ -43,4 +43,18 @@ form {
 footer {
     font-size: 30px;
     background-color: #91c8f7;
+}
+
+#bikeselector {
+    width: auto;
+}
+@media screen and (max-width: 400px) {
+    main img {
+    max-width: 100%;
+    height: auto;
+}
+
+#bikeselector {
+    max-width: 250px;
+}
 }
