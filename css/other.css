@@ -4,9 +4,40 @@ html {
 }
 
 body {
+    max-width: 650px;
+    margin:0 auto;
     text-align: center;
+    background-color: #91c8f7;
 }
 
 h1 {
     color: red;
+}
+
+.videos {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+body {
+    width: 450px;
+    height: auto;
+}    
+    
+iframe {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+body {
+    width: 250px;
+    height: auto;
+}    
+    
+iframe {
+        width: 250px;
+        height: 200px;
+    }
 }
