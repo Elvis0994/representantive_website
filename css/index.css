@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    width: 80%;
+    max-width: 1000px;
     margin:0 auto;
     text-align: center;
 }
@@ -20,7 +20,7 @@ header {
 }
 
 .picture {
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -38,7 +38,7 @@ nav ul {
 }
 
 
-#slider {
+#slider1 {
 	width: 600px;
 	height: 400px;
 	border: 5px solid black;
@@ -46,7 +46,7 @@ nav ul {
 	overflow: hidden;
 }
 
-#polosa {
+#polosa1 {
 	/*background: pink;*/
 	width: 1800px;
 	position: relative;
@@ -54,11 +54,256 @@ nav ul {
 	transition: all ease 1s;
 }
 
-#polosa img {
+#polosa1 img {
 	float: left;
+	
 }
 
-#polosa::after {
+#polosa1::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#slider2 {
+	width: 600px;
+	height: 400px;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+#polosa2 {
+	/*background: pink;*/
+	width: 1800px;
+	position: relative;
+	left: 0;
+	transition: all ease 1s;
+}
+
+#polosa2 img {
+	float: left;
+	
+}
+
+#polosa2::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#slider3 {
+	width: 600px;
+	height: 400px;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+}
+
+#polosa3 {
+	/*background: pink;*/
+	width: 1800px;
+	position: relative;
+	left: 0;
+	transition: all ease 1s;
+}
+
+#polosa3 img {
+	float: left;
+	
+}
+
+#polosa3::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#slider4 {
+	width: 600px;
+	height: 400px;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+#polosa4 {
+	/*background: pink;*/
+	width: 1800px;
+	position: relative;
+	left: 0;
+	transition: all ease 1s;
+}
+
+#polosa4 img {
+	float: left;
+	
+}
+
+#polosa4::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#slider5 {
+	width: 600px;
+	height: 400px;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+#polosa5 {
+	/*background: pink;*/
+	width: 1800px;
+	position: relative;
+	left: 0;
+	transition: all ease 1s;
+}
+
+#polosa5 img {
+	float: left;
+	
+}
+
+#polosa5::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#slider6 {
+	width: 600px;
+	height: 400px;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+#polosa6 {
+	/*background: pink;*/
+	width: 1800px;
+	position: relative;
+	left: 0;
+	transition: all ease 1s;
+}
+
+#polosa6 img {
+	float: left;
+	
+}
+
+#polosa6::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#slider7 {
+	width: 600px;
+	height: 400px;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+#polosa7 {
+	/*background: pink;*/
+	width: 1800px;
+	position: relative;
+	left: 0;
+	transition: all ease 1s;
+}
+
+#polosa7 img {
+	float: left;
+	
+}
+
+#polosa7::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#slider8 {
+	width: 600px;
+	height: 400px;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+#polosa8 {
+	/*background: pink;*/
+	width: 1800px;
+	position: relative;
+	left: 0;
+	transition: all ease 1s;
+}
+
+#polosa8 img {
+	float: left;
+	
+}
+
+#polosa8::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#slider9 {
+	width: 600px;
+	height: 400px;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+#polosa9 {
+	/*background: pink;*/
+	width: 1800px;
+	position: relative;
+	left: 0;
+	transition: all ease 1s;
+}
+
+#polosa9 img {
+	float: left;
+	
+}
+
+#polosa9::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#slider10 {
+	width: 600px;
+	height: 400px;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+#polosa10 {
+	/*background: pink;*/
+	width: 1800px;
+	position: relative;
+	left: 0;
+	transition: all ease 1s;
+}
+
+#polosa10 img {
+	float: left;
+	
+}
+
+#polosa10::after {
 	content: "";
 	display: block;
 	clear: both;
