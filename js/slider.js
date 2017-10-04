@@ -1,6 +1,6 @@
 document.getElementById('leftbutton1').onclick = sliderLeft1;
 var left1 = 0;
-
+var scr_w = screen.width;
 function sliderLeft1(){
 	var polosa1 = document.getElementById('polosa1');
 	left1 = left1 - 600;

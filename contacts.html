@@ -17,8 +17,10 @@
                 <il><button id="slider-left">Other</button></il>
             </ul>
         </nav>
+    </header>
     <main>
         <div><img src="css/img/contacts_main_image.jpg"></img></div>
+        <div><p>So here's how you may contact me!</p></div>
         
         <form action="https://formspree.io/rubaha0994@gmail.com" method="POST">
         <input id="visitor-name" class="visitor-name" type="text" name="name" placeholder="Name" required/>
@@ -27,7 +29,7 @@
         <br>
         <textarea id="visitor-message" class="visitor-message" placeholder="Your Message"> </textarea>
         <br>
-        <lable class="bikeselector" for="bike">Best bike 2017:</lable>
+        <lable id="bikeselector" class="visitor-choise" for="bike">Best bike 2017:</lable>
             <select id="bike" name="bike">
                 <option value="Canyon Sender CF 9.0">Canyon Sender CF 9.0</option>
                 <option value="GIANT GLORY ADVANCED 0">GIANT GLORY ADVANCED 0</option>
@@ -41,9 +43,12 @@
                 <option value="YT INDUSTRIES TUES CF PRO RACE">YT INDUSTRIES TUES CF PRO RACE</option>
             </select>
             <br>
-            <input class="button-send" type="submit" name="button" value="SEND" />
+        <input class="button-send" type="submit" name="button" value="SEND" />
 </form>
     </main>
+     <footer>
+        <div id="footertext"><p>GRAVITY SUCKS</p></div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 </body>
 </html>

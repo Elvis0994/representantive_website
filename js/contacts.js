@@ -11,7 +11,7 @@ $(function(){
                 personName: $('#visitor-name').val(),
                 personEmail: $('#visitor-email').val(),
                 message: $('#visitor-message').val(),
-                bestbike: $('#bikeselector').val()},
+                bestbike: $('#bike').val()},
             dataType: "json"
         }).done(function(){
             $('form')[0].reset();

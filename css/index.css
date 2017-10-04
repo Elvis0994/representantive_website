@@ -37,10 +37,15 @@ nav ul {
 
 }
 
-/*__________________________________________________*/
+#footertext {
+    font-size: 30px;
+    background-color: #91c8f7;
+}
+
+/*____________sliders_______________*/
 #slider1 {
 	width: 600px;
-	height: 400px;
+	height: auto;
 	border: 5px solid black;
 	margin: 50px auto;
 	overflow: hidden;
@@ -307,4 +312,282 @@ nav ul {
 	content: "";
 	display: block;
 	clear: both;
+}
+/*_______responsive_____________*/
+
+@media screen and (max-width: 900px) {
+
+body {
+    max-width: 700px;
+    margin:0 auto;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+#slider1 {
+	width: 400px;
+	height: auto;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+#slider2 {
+	width: 400px;
+	height: auto;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+#slider3 {
+	width: 400px;
+	height: auto;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+#slider4 {
+	width: 400px;
+	height: auto;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+#slider5 {
+	width: 400px;
+	height: auto;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+#slider6 {
+	width: 400px;
+	height: auto;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+#slider7 {
+	width: 400px;
+	height: auto;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+#slider8 {
+	width: 400px;
+	height: auto;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+#slider9 {
+	width: 400px;
+	height: auto;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+#slider10 {
+	width: 400px;
+	height: auto;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+}
+
+@media screen and (max-width: 600px) {
+
+body {
+    max-width: 500px;
+    margin:0 auto;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+#slider1 {
+	width: 400px;
+	height: auto;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+#slider2 {
+	width: 400px;
+	height: auto;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+#slider3 {
+	width: 400px;
+	height: auto;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+#slider4 {
+	width: 400px;
+	height: auto;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+#slider5 {
+	width: 400px;
+	height: auto;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+#slider6 {
+	width: 400px;
+	height: auto;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+#slider7 {
+	width: 400px;
+	height: auto;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+#slider8 {
+	width: 400px;
+	height: auto;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+#slider9 {
+	width: 400px;
+	height: auto;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+#slider10 {
+	width: 400px;
+	height: auto;
+	border: 5px solid black;
+	margin: 50px auto;
+	overflow: hidden;
+}
+}
+
+@media screen and (max-width: 400px) {
+
+body {
+    max-width: 300px;
+    margin:0 auto;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+#slider1 {
+	width: 300px;
+	height: auto;
+	border: 3px solid black;
+	margin: 10px auto;
+	overflow: hidden;
+}
+
+#slider2 {
+	width: 300px;
+	height: auto;
+	border: 3px solid black;
+	margin: 10px auto;
+	overflow: hidden;
+}
+
+#slider3 {
+	width: 300px;
+	height: auto;
+	border: 3px solid black;
+	margin: 10px auto;
+	overflow: hidden;
+}
+
+#slider4 {
+	width: 300px;
+	height: auto;
+	border: 3px solid black;
+	margin: 10px auto;
+	overflow: hidden;
+}
+
+#slider5 {
+	width: 300px;
+	height: auto;
+	border: 3px solid black;
+	margin: 10px auto;
+	overflow: hidden;
+}
+
+#slider6 {
+	width: 300px;
+	height: auto;
+	border: 3px solid black;
+	margin: 10px auto;
+	overflow: hidden;
+}
+
+#slider7 {
+	width: 300px;
+	height: auto;
+	border: 3px solid black;
+	margin: 10px auto;
+	overflow: hidden;
+}
+
+#slider8 {
+	width: 300px;
+	height: auto;
+	border: 3px solid black;
+	margin: 10px auto;
+	overflow: hidden;
+}
+#slider9 {
+	width: 300px;
+	height: auto;
+	border: 3px solid black;
+	margin: 10px auto;
+	overflow: hidden;
+}
+#slider10 {
+	width: 300px;
+	height: auto;
+	border: 3px solid black;
+	margin: 10px auto;
+	overflow: hidden;
+}
+    
 }

@@ -31,3 +31,16 @@ main img {
     width: 1000px;
      margin:0 auto;
 }
+main {
+    background-color: #91c8f7
+}
+
+form {
+        text-align: center;
+        background-color: #91c8f7
+}
+
+footer {
+    font-size: 30px;
+    background-color: #91c8f7;
+}
