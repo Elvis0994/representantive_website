@@ -37,7 +37,7 @@ nav ul {
 
 }
 
-
+/*__________________________________________________*/
 #slider1 {
 	width: 600px;
 	height: 400px;
@@ -74,7 +74,7 @@ nav ul {
 }
 
 #polosa2 {
-	/*background: pink;*/
+	background: pink;
 	width: 1800px;
 	position: relative;
 	left: 0;

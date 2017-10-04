@@ -18,7 +18,32 @@
             </ul>
         </nav>
     <main>
-        <img src="css/img/contacts_main_image.jpg"></img>
+        <div><img src="css/img/contacts_main_image.jpg"></img></div>
+        
+        <form action="https://formspree.io/rubaha0994@gmail.com" method="POST">
+        <input id="visitor-name" class="visitor-name" type="text" name="name" placeholder="Name" required/>
+        <br>
+        <input id="visitor-email" class="visitor-email" type="email" name="email" placeholder="Email" required/>
+        <br>
+        <textarea id="visitor-message" class="visitor-message" placeholder="Your Message"> </textarea>
+        <br>
+        <lable class="bikeselector" for="bike">Best bike 2017:</lable>
+            <select id="bike" name="bike">
+                <option value="Canyon Sender CF 9.0">Canyon Sender CF 9.0</option>
+                <option value="GIANT GLORY ADVANCED 0">GIANT GLORY ADVANCED 0</option>
+                <option value="MONDRAKER SUMMUM CARBON PRO TEAM">MONDRAKER SUMMUM CARBON PRO TEAM</option>
+                <option value="NICOLAI G19">NICOLAI G19</option>
+                <option value="ORANGE 324 FACTORY">ORANGE 324 FACTORY</option>
+                <option value="PROPAIN RAGE CARBON">PROPAIN RAGE CARBON</option>
+                <option value="RADON SWOOP 200">RADON SWOOP 200</option>
+                <option value="SOLID STRIKE EVO WORLD CUP">SOLID STRIKE EVO WORLD CUP</option>
+                <option value="SPECIALIZED S-WORKS DEMO 8">SPECIALIZED S-WORKS DEMO 8</option>
+                <option value="YT INDUSTRIES TUES CF PRO RACE">YT INDUSTRIES TUES CF PRO RACE</option>
+            </select>
+            <br>
+            <input class="button-send" type="submit" name="button" value="SEND" />
+</form>
     </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 </body>
 </html>

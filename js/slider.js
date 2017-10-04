@@ -10,17 +10,17 @@ function sliderLeft1(){
 	polosa1.style.left = left1 +'px';
 }
 
-document.getElementById('leftbutton2').onclick = sliderLeft2;
-var left2 = 0;
+// document.getElementById('leftbutton2').onclick = sliderLeft2;
+// var left2 = 0;
 
-function sliderLeft2(){
-	var polosa2 = document.getElementById('polosa2');
-	left2 = left2 - 600;
-	if (left2 <= -1800) {
-		left2 = 0;
-	}
-	polosa2.style.left = left2 +'px';
-}
+// function sliderLeft2(){
+// 	var polosa2 = document.getElementById('polosa2');
+// 	left2 = left2 - 600;
+// 	if (left2 <= -1800) {
+// 		left2 = 0;
+// 	}
+// 	polosa2.style.left = left2 +'px';
+// }
 
 document.getElementById('leftbutton3').onclick = sliderLeft3;
 var left3 = 0;
@@ -106,7 +106,7 @@ function sliderLeft9(){
 	polosa9.style.left = left9 +'px';
 }
 
-document.getElementById('leftbutton10').onclick = sliderLeft;
+document.getElementById('leftbutton10').onclick = sliderLeft10;
 var left10 = 0;
 
 function sliderLeft10(){
