@@ -1,6 +1,6 @@
 document.getElementById('leftbutton1').onclick = sliderLeft1;
 var left1 = 0;
-var scr_w = screen.width;
+// var scr_w = screen.width;
 function sliderLeft1(){
 	var polosa1 = document.getElementById('polosa1');
 	left1 = left1 - 600;
@@ -10,17 +10,17 @@ function sliderLeft1(){
 	polosa1.style.left = left1 +'px';
 }
 
-// document.getElementById('leftbutton2').onclick = sliderLeft2;
-// var left2 = 0;
+document.getElementById('leftbutton2').onclick = sliderLeft2;
+var left2 = 0;
 
-// function sliderLeft2(){
-// 	var polosa2 = document.getElementById('polosa2');
-// 	left2 = left2 - 600;
-// 	if (left2 <= -1800) {
-// 		left2 = 0;
-// 	}
-// 	polosa2.style.left = left2 +'px';
-// }
+function sliderLeft2(){
+	var polosa2 = document.getElementById('polosa2');
+	left2 = left2 - 600;
+	if (left2 <= -1800) {
+		left2 = 0;
+	}
+	polosa2.style.left = left2 +'px';
+}
 
 document.getElementById('leftbutton3').onclick = sliderLeft3;
 var left3 = 0;
@@ -31,7 +31,7 @@ function sliderLeft3(){
 	if (left3 <= -1800) {
 		left3 = 0;
 	}
-	polosa3.style.left = left3+'px';
+	polosa3.style.left = left3 +'px';
 }
 
 document.getElementById('leftbutton4').onclick = sliderLeft4;
