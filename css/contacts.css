@@ -13,6 +13,19 @@ header {
     background-color: #91c8f7;
 }
 
+.headerbutton {
+    background-color: #1790fa;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    color: black;
+    padding: 1px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 nav ul {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;

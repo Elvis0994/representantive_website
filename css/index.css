@@ -19,6 +19,19 @@ header {
     background-color: #91c8f7;
 }
 
+.headerbutton {
+    background-color: #1790fa;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    color: black;
+    padding: 1px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 .picture {
     max-width: 100%;
     height: auto;
@@ -43,11 +56,12 @@ nav ul {
 }
 
 /*____________sliders_______________*/
+
 #slider1 {
 	width: 600px;
 	height: auto;
 	border: 5px solid black;
-	margin: 50px auto;
+	margin: 10px auto;
 	overflow: hidden;
 }
 
@@ -70,11 +84,22 @@ nav ul {
 	clear: both;
 }
 
+#leftbutton1 {
+	background-color: #1790fa;
+    border: 1px solid yellow;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	
+}
+
 #slider2 {
 	width: 600px;
-	height: 400px;
+	height: auto;
 	border: 5px solid black;
-	margin: 50px auto;
+	margin: 10px auto;
 	overflow: hidden;
 }
 
@@ -97,11 +122,21 @@ nav ul {
 	clear: both;
 }
 
+#leftbutton2 {
+	background-color: #1790fa;
+    border: 1px solid yellow;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 #slider3 {
 	width: 600px;
-	height: 400px;
+	height: auto;
 	border: 5px solid black;
-	margin: 50px auto;
+	margin: 10px auto;
 	overflow: hidden;
 }
 
@@ -124,11 +159,21 @@ nav ul {
 	clear: both;
 }
 
+#leftbutton3 {
+	background-color: #1790fa;
+    border: 1px solid yellow;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 #slider4 {
 	width: 600px;
-	height: 400px;
+	height: auto;
 	border: 5px solid black;
-	margin: 50px auto;
+	margin: 10px auto;
 	overflow: hidden;
 }
 
@@ -151,11 +196,21 @@ nav ul {
 	clear: both;
 }
 
+#leftbutton4 {
+	background-color: #1790fa;
+    border: 1px solid yellow;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 #slider5 {
 	width: 600px;
-	height: 400px;
+	height: auto;
 	border: 5px solid black;
-	margin: 50px auto;
+	margin: 10px auto;
 	overflow: hidden;
 }
 
@@ -178,11 +233,21 @@ nav ul {
 	clear: both;
 }
 
+#leftbutton5 {
+	background-color: #1790fa;
+    border: 1px solid yellow;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 #slider6 {
 	width: 600px;
-	height: 400px;
+	height: auto;
 	border: 5px solid black;
-	margin: 50px auto;
+	margin: 10px auto;
 	overflow: hidden;
 }
 
@@ -205,11 +270,21 @@ nav ul {
 	clear: both;
 }
 
+#leftbutton6 {
+	background-color: #1790fa;
+    border: 1px solid yellow;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 #slider7 {
 	width: 600px;
-	height: 400px;
+	height: auto;
 	border: 5px solid black;
-	margin: 50px auto;
+	margin: 10px auto;
 	overflow: hidden;
 }
 
@@ -232,11 +307,21 @@ nav ul {
 	clear: both;
 }
 
+#leftbutton7 {
+	background-color: #1790fa;
+    border: 1px solid yellow;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 #slider8 {
 	width: 600px;
-	height: 400px;
+	height: auto;
 	border: 5px solid black;
-	margin: 50px auto;
+	margin: 10px auto;
 	overflow: hidden;
 }
 
@@ -259,11 +344,21 @@ nav ul {
 	clear: both;
 }
 
+#leftbutton8 {
+	background-color: #1790fa;
+    border: 1px solid yellow;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 #slider9 {
 	width: 600px;
-	height: 400px;
+	height: auto;
 	border: 5px solid black;
-	margin: 50px auto;
+	margin: 10px auto;
 	overflow: hidden;
 }
 
@@ -286,11 +381,21 @@ nav ul {
 	clear: both;
 }
 
+#leftbutton9 {
+	background-color: #1790fa;
+    border: 1px solid yellow;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 #slider10 {
 	width: 600px;
-	height: 400px;
+	height: auto;
 	border: 5px solid black;
-	margin: 50px auto;
+	margin: 10px auto;
 	overflow: hidden;
 }
 
@@ -312,6 +417,16 @@ nav ul {
 	display: block;
 	clear: both;
 }
+
+#leftbutton10 {
+	background-color: #1790fa;
+    border: 1px solid yellow;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
 /*_______responsive_____________*/
 
 @media screen and (max-width: 900px) {
@@ -331,7 +446,7 @@ img {
 	width: 400px;
 	height: auto;
 	border: 5px solid black;
-	margin: 50px auto;
+	margin: 10px auto;
 	overflow: hidden;
 }
 
@@ -339,7 +454,7 @@ img {
 	width: 400px;
 	height: auto;
 	border: 5px solid black;
-	margin: 50px auto;
+	margin: 10px auto;
 	overflow: hidden;
 }
 
